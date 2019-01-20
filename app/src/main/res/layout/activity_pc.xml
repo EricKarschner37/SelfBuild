@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:background="@color/colorPrimary"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PCActivity">
+
+        <TextView
+                style="@style/HeaderText"
+                android:padding="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pc_result"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideOverlay"
+                android:id="@+id/parts_rv"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+
+    <LinearLayout
+            android:gravity="center"
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/start_over_button"
+                android:onClick="startOver"
+                android:text="@string/start_over"/>
+        <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/build_button"
+                android:onClick="startBuilding"
+                android:text="@string/build"/>
+
+    </LinearLayout>
+
+</LinearLayout>

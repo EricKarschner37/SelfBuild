@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SelfBuild</string>
+    <string name="welcome">Welcome to the PC Self Builder! Would you like to get started?</string>
+    <string name="already_done">Hello! It seems that you\'ve already made a PC with our app. Would you like to see your
+        build again?
+    </string>
+    <string name="start">Let\'s do this!</string>
+    <string name="start_over">Start over</string>
+    <string name="resume">Resume</string>
+
+    <string name="back">Back</string>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="next">Next</string>
+    <string name="choose_many">Select all that apply</string>
+
+    <string name="make_selection">Please make a selection</string>
+
+    <string name="budget_question">What is your budget for this computer?</string>
+
+    <string name="uses_question">Which of the following will you use your computer for often?</string>
+    <string name="gaming">Gaming</string>
+    <string name="office_work">Office Work</string>
+    <string name="video_editing">Video Editing</string>
+    <string name="web_browsing">Web Browsing</string>
+
+    <string name="primary_use_question">Which of these will be your primary use?</string>
+
+    <string name="storage_question">How much storage will you need?</string>
+    <string name="unknown">I don\'t know</string>
+
+    <string name="pc_result">Here are your recommended PC Parts! Tap on a part to find out where to purchase it.
+    </string>
+    <string name="no_computer">Unfortunately, a computer with your specifications could not be built. An option close to
+        your budget is displayed.
+    </string>
+    <string name="build">Let\'s build it!</string>
+    <string name="view_parts">View Parts</string>
+
+
+    <string name="psu_title">1. Install the PSU</string>
+    <string name="psu_desc">The PSU, or Power Supply Unit, powers the computer</string>
+    <string name="psu_steps">1. Insert the PSU into the mounting area and screw it in.\n\n2. Ensure the unit is switched off and then plug it in.</string>
+
+    <string name="cpu_title">2. Install the CPU</string>
+    <string name="cpu_desc">The CPU, or Central Processing Unit, acts as the brain of the computer.</string>
+    <string name="cpu_steps">1. Open the CPU latch on the motherboard and insert the CPU.\n\n2. Close the CPU latch on the motherboard.</string>
+
+    <string name="ram_title">3. Install the RAM</string>
+    <string name="ram_desc">The RAM, or Random Access Memory, is the cache for the computer; in other words, it\'s the computer\'s short term memory.</string>
+    <string name="ram_steps">1. Unlock the RAM locks on the motherboard\n\n2. Insert the RAM module.\n\n3. Push down on the stick until it clicks into place.</string>
+
+    <string name="mb_title">4. Install the Motherboard</string>
+    <string name="mb_desc">The Motherboard connects each component of the computer together.</string>
+    <string name="mb_steps">1. Click the I/O shield into place in the rear cutout.\n\n2. Install the standoffs for the motherboard and lower the board onto them.\n\n3. Tighten the screws.</string>
+
+    <string name="storage_title">5. Install the Storage</string>
+    <string name="storage_desc">The storage allows data to persist on your computer after you shut it off.</string>
+    <string name="storage_steps">1. Locate the storage bracket on your case.\n\n2. Screw the storage device into the bracket.\n\n3. Secure the bracket to the case</string>
+
+    <string name="plug_title">6. Plug everything in</string>
+    <string name="plug_desc">Time to connect all of the pieces!</string>
+    <string name="plug_steps">1. Plug the PSU cables into the motherboard.\n\n2. Connect the storage drive to the PSU.\n\n3. Connect the storage drive to the motherboard.</string>
+
+    <string name="gpu_title">7. Install the GPU</string>
+    <string name="gpu_desc">The GPU, or Graphics Processing Unit, is dedicated to graphics. It is a necessity for gaming and many other activities.</string>
+    <string name="gpu_steps">1. Open the motherboard\'s GPU card latch.\n\n2. Remove the PCIe strip cap from the GPU.\n\n3. Insert the GPU into the motherboard.</string>
+
+    <string name="done_title">Use your brand new PC!</string>
+    <string name="done_desc">Congratulations!</string>
+    <string name="done_steps">Turn on your PSU and your computer, and you\'re free to use your new custom PC!</string>
+
+    <string name="discard_confirm">Are you sure you want to discard your build and start over?</string>
+</resources>

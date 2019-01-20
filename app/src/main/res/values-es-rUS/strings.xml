@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">SelfBuild</string>
+    <string name="welcome">¡Bienvenido a PCBuilder! ¿Querría empezar?</string>
+    <string name="already_done">¡Hola! Parece como ya ha hecho un PC en esta aplicación. ¿Quería verlo?
+    </string>
+    <string name="start">¡Empecemos!</string>
+    <string name="start_over">Comenzar a Nuevo</string>
+    <string name="resume">Continuar</string>
+
+    <string name="back">Regresar</string>
+
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+
+    <string name="next">Próximo</string>
+    <string name="choose_many">Escoja todo que aplican</string>
+
+    <string name="make_selection">Por favor, escoja una cosa</string>
+
+    <string name="budget_question">¿Cuanto dinero quiere pagar?</string>
+
+    <string name="uses_question">¿Por cuales de estos va a usar la computadora?</string>
+    <string name="gaming">Jugar</string>
+    <string name="office_work">Trabajo de la Oficina</string>
+    <string name="video_editing">Editar los videos</string>
+    <string name="web_browsing">Usar la Red</string>
+
+    <string name="primary_use_question">¿Cual será su usa mayor?</string>
+
+    <string name="storage_question">¿Cuanto espacio necesitará?</string>
+    <string name="unknown">No sé</string>
+
+    <string name="pc_result">¡Estes son sus partes decomputadora! Tóquelos para ver donde se puede comprarlos.
+    </string>
+    <string name="no_computer">Desgraciadamente, no se pueder hacer una computadora con sus requisitos. Una opción muy cerca a su presupuesto está morstrado.
+    </string>
+    <string name="build">¡Construyámoslo!</string>
+    <string name="view_parts">Ver los Partes</string>
+
+
+    <string name="psu_title">1. Installar la UFA</string>
+    <string name="psu_desc">La UFA, o Unidad de Fuente de Alimentación, da electricidad a la computadora</string>
+    <string name="psu_steps">1. Meta la UFA en la mounting área de montar y atorníllela.\n\n2. Haga segura que está apagada, y enchufarla</string>
+
+    <string name="cpu_title">2. Installar la CPU</string>
+    <string name="cpu_desc">La UCP, o Unidad Central de Procesamiento, funciona como el mente de la computadora.</string>
+    <string name="cpu_steps">1. Abra el pestillo de UCP en la tarjeta madre y pongala allí.\n\n2. Cierra el pestillo.</string>
+
+    <string name="ram_title">3. Installar la MAA</string>
+    <string name="ram_desc">La MAA, o Memoria de Acceso Aleatorio, mantiene cosas por tiempos cortos.</string>
+    <string name="ram_steps">1. Abra las cerraduras de MAA en la tarjeta madre.\n\n2. Meta la MAA.\n\n3. Empújela hasta que haga clic.</string>
+
+    <string name="mb_title">4. Installar la Tarjeta Madre</string>
+    <string name="mb_desc">La tarjeta madre conecta cada parte de la computadora.</string>
+    <string name="mb_steps">1. Mete el parte do E/A en el caso.\n\n2. Installe los apoyos y pongala en ellos.\n\n3. Atornille las empulgueras.</string>
+
+    <string name="storage_title">5. Installar el Almacenaje</string>
+    <string name="storage_desc">El almacenaje mantiene cosas en la computadora, incluso cuando se lo apaga.</string>
+    <string name="storage_steps">1. Encuentra los soportes del almacenaje.\n\n2. Atornille el almacenja en los soportes.\n\n3. Ponga los soportes en el caso.</string>
+
+    <string name="plug_title">6. Enchufar todo</string>
+    <string name="plug_desc">¡Es el tiempo de conectar los partes!</string>
+    <string name="plug_steps">1. Conecta la UFA y la tarjeta madre.\n\n2. Conecta el almacenaje y la UFA.\n\n3. Conecta el almacenaje y la tarjeta madre.</string>
+
+    <string name="gpu_title">7. Installar la UPG</string>
+    <string name="gpu_desc">La UPG, o Unidad de Procesamiento Gráfico, es dedicado a los gráficos. Es necesario para jugar videojuegos.</string>
+    <string name="gpu_steps">1. Abra el pestillo de UPG en la tarjeta madre.\n\n2. Quita la tapa de PCIe de la UPG.\n\n3. Ponga la UPG en la tarjeta madre.</string>
+
+    <string name="done_title">¡Usa la Computadora!</string>
+    <string name="done_desc">¡Felicidades!</string>
+    <string name="done_steps">Encienda la UFA y la computadora, y ¡puede usarla!</string>
+
+    <string name="discard_confirm">¿Está seguro que quiere quitar tu información y comenzar a nuevo?</string>
+</resources>

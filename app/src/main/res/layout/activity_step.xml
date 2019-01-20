@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".StepActivity"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:id="@+id/steps_root"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                style="@style/HeaderText"
+                android:id="@+id/step_title_tv"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/step_desc_tv"
+                android:padding="16dp"
+                android:textSize="14sp"
+                android:textColor="#CCFFFFFF"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/step_steps_tv"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        <LinearLayout
+                android:gravity="center"
+                android:padding="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/back_step_button"
+                    android:onClick="onBackButton"
+                    android:text="@string/back"/>
+            <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/next_step_button"
+                    android:onClick="onNextButton"
+                    android:text="@string/next"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
